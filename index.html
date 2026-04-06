@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<meta charset="utf-8">
+<title>Authors’ Simple Steps</title>
+<meta property="og:type" content="website">
+<meta property="og:title" content="Authors’ Simple Steps">
+<meta name="description" property="og:description" content="Five Simple Steps is now closed. I’m trying to track the authors’ preferred ways of making their books available.">
+<meta name="author" content="Alan Dalton">
+<meta content="index, follow" name="robots">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+html {
+  max-width: 100%;
+  margin: 0;
+}
+
+section,
+footer {
+  border-top-width: 0.125rem;
+  border-top-style: solid;
+  border-bottom-width: 0;
+}
+
+header,
+footer {
+  max-width: 30rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body {
+  font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif; /* https://modernfontstacks.com/#humanist */
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 1.45;
+  padding: 1rem;
+  position: relative;
+  max-width: 100em;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 125%;
+  text-align: center;
+}
+
+h1 {
+  font-size: xxx-large;
+}
+
+h2 {
+  font-size: xx-large;
+}
+
+h3 {
+  font-size: x-large;
+}
+
+h1, h2, h3 {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+li {
+  margin-bottom: 2rem;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 0.0625em solid olive;
+}
+
+.BestAmpersandAvailable {
+  font-family: Baskerville, Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.practical,
+.pocket,
+.oneoffs {
+  background-color: rgba(210, 180, 140, 0.25);
+}
+
+.practical ol,
+.pocket ol,
+.oneoffs ol {
+  list-style-position: inside;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 0;
+}
+
+.practical ol li,
+.pocket ol li,
+.oneoffs ol li {
+  border: 0.0625em outset;
+  width: 8em;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  padding: 1em;
+  box-shadow: 0 0.25em 0.5em rgb(0, 0, 0, 0.25);
+  position: relative;
+  background-color: white;
+}
+
+.practical ol li,
+.oneoffs ol li {
+  height: 12.36em;
+}
+
+.pocket ol li {
+  height: 16em;
+}
+
+.practical ol li::marker,
+.pocket ol li::marker,
+.oneoffs ol li::marker {
+  content: "№" counter(list-item);
+}
+
+[itemtype="https://schema.org/Book"]>[itemprop="name"] {
+  font-size: larger;
+  margin-bottom: 1em;
+}
+
+[itemtype="https://schema.org/Book"]>time {
+  font-size: small;
+}
+
+[itemprop="isAccessibleForFree"] {
+  position: absolute;
+  top: -0.5em;
+  right: -0.25em;
+  transform: rotate(-5deg);
+  font-size: 2em;
+  text-shadow: 0 0 3px #FFF,0 0 3px #FFF,0 0 3px #FFF,0 0 3px #FFF,0 0 3px #FFF;
+}
+
+:target {
+  box-shadow: 0 0.25em 0.5em rebeccapurple;
+}
+
+.about {
+  max-width: 30rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+</style>
+
+<header>
+  <h1><span aria-hidden="true">🪜</span> Authors’ Simple Steps</h1>
+</header>
+
+<main>
+  <section class="practical">
+    <h2><span aria-hidden="true">📚 </span>Practical Guides</h2>
+    <ol>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">
+          <a itemprop="url" href="https://designingfortheweb.co.uk/">Designing for the Web</a>
+        </div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">
+            <a itemprop="url" href="https://markboulton.co.uk/">Mark Boulton</a>
+          </span>
+        </div>
+        <time itemprop="datePublished">2009</time>
+        <div itemprop="isAccessibleForFree" content="true">🆓</div>
+      </li>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">
+          <a itemprop="url" href="https://maadmob.com.au/speaking/books/practical-ia">Information Architecture</a>
+        </div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">
+            <a itemprop="url" href="https://maadmob.com.au/about/bio-donna-spencer">Donna Spencer</a>
+          </span>
+        </div>
+        <time itemprop="datePublished">2010</time>
+        <div itemprop="isAccessibleForFree" content="true">🆓</div>
+      </li>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">
+          <a itemprop="url" href="https://designingwithdata.com/">Designing with Data</a>
+        </div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">
+            <a itemprop="url" href="https://suda.co.uk/">Brian Suda</a>
+          </span>
+        </div>
+        <time itemprop="datePublished">2010</time>
+      </li>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">Designing the Invisible</div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">Robert Mills</span>
+        </div>
+        <time itemprop="datePublished">2011</time>
+      </li>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">Web App Success</div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">Dan Zambonini</span>
+        </div>
+        <time itemprop="datePublished">2011</time>
+      </li>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">Managing Web Projects</div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">
+            <a itemprop="url" href="https://www.breandan.org/">Breandán Knowlton</a>
+          </span>
+        </div>
+        <time itemprop="datePublished">2012</time>
+      </li>
+
+    </ol>
+  </section>
+
+  <section class="pocket">
+    <h2><span aria-hidden="true">📃 </span>Pocket Guides</h2>
+    <ol>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">
+          <a itemprop="url" href="https://buildingadevicelab.com/">Building a Device Lab</a>
+        </div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">Destiny Montague</span>
+        </div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">
+            <a itemprop="url" href="http://larahogan.me/">Lara Hogan</a>
+          </span>
+        </div>
+        <div itemprop="isAccessibleForFree" content="true">🆓</div>
+      </li>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">Colour Accessibility</div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">
+            <a itemprop="url" href="http://www.hellogeri.com/">Geri Coady</a>
+          </span>
+        </div>
+      </li>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">
+          <a itemprop="url" href="https://blog.typekit.com/2016/04/29/combining-typefaces-free-guide-to-great-typography/">Combining Typefaces</a>
+        </div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">
+            <a itemprop="url" href="https://tbrown.org/">Tim Brown</a>
+          </span>
+        </div>
+        <div itemprop="isAccessibleForFree" content="true">🆓</div>
+      </li>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">Creating Symbol Fonts</div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">
+            <a itemprop="url" href="https://suda.co.uk/">Brian Suda</a>
+          </span>
+        </div>
+      </li>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">
+          <a itemprop="url" href="https://valhead.com/books/#:~:text=Pocket%20Guide%20to%20CSS%20Animation"><abbr title="Cascading Style Sheets">CSS</abbr> Animations</a>
+        </div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">
+            <a itemprop="url" href="https://valhead.com/">Val Head</a>
+          </span>
+        </div>
+        <div itemprop="isAccessibleForFree" content="true">🆓</div>
+      </li>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name"><abbr title="Cascading Style Sheets">CSS</abbr>3 Layout Modules</div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">
+            <a itemprop="url" href="https://rachelandrew.co.uk/">Rachel Andrew</a>
+          </span>
+        </div>
+      </li>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">Design Evolution</div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">Josh Long</span>
+        </div>
+      </li>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">Experiments for Designers</div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">Colin McFarland</span>
+        </div>
+      </li>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">
+          <a itemprop="url" href="https://www.maban.co.uk/projects/front-end-style-guides/">Front-End Style Guides</a>
+        </div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">Anna Debenham</span>
+        </div>
+      </li>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">
+          <a itemprop="url" href="https://andycroll.com/html-email/"><abbr title="HyperText Markup Language">HTML</abbr> Email</a>
+        </div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">
+            <a itemprop="url" href="https://andycroll.com/">Andy Croll</a>
+          </span>
+        </div>
+      </li>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">
+          <a itemprop="url" href="https://beyo.global/international-user-research">International User Research</a>
+        </div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">
+            <a itemprop="url" href="https://beyo.global/about#block-yui_3_17_2_1_1586294354315_19377">Chui Chui Tan</a>
+          </span>
+        </div>
+      </li>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">
+          <a itemprop="url" href="https://www.andrewtravers.co/book/">Interviewing for Research</a>
+        </div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">
+            <a itemprop="url" href="https://www.andrewtravers.co/">Andrew Travers</a>
+          </span>
+        </div>
+        <div itemprop="isAccessibleForFree" content="true">🆓</div>
+      </li>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">
+          <a itemprop="url" href="https://responsiveimag.es/#book">Practical Responsive Images</a>
+        </div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">
+            <a itemprop="url" href="https://benseymour.com/">Ben Seymour</a>
+          </span>
+        </div>
+      </li>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">
+          <a itemprop="url" href="https://mrjoe.uk/psychology-for-designers/">Psychology for Designers</a>
+        </div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">
+            <a itemprop="url" href="https://mrjoe.uk/">Joe Leech</a>
+          </span>
+        </div>
+      </li>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">
+          <a itemprop="url" href="https://www.mearso.co.uk/pocketguide/">Sketchnoting</a>
+        </div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">
+            <a itemprop="url" href="https://www.mearso.co.uk/">Kevin Mears</a>
+          </span>
+        </div>
+      </li>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">The Craft of Words, Part&nbsp;One: Macrocopy</div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">The Standardistas</span>
+        </div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">Christopher Murphy</span>
+        </div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">
+            <a itemprop="url" href="https://nicklaspersson.com/">Nicklas Persson</a>
+          </span>
+        </div>
+      </li>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">The Craft of Words, Part&nbsp;Two: Microcopy</div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">The Standardistas</span>
+        </div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">Christopher Murphy</span>
+        </div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">
+            <a itemprop="url" href="https://nicklaspersson.com/">Nicklas Persson</a>
+          </span>
+        </div>
+      </li>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">
+          <a itemprop="url" href="https://amzn.to/3wb82tz">Usability of Web Photos</a>
+        </div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">
+            <a itemprop="url" href="https://jameschudley.co.uk/">James Chudley</a>
+          </span>
+        </div>
+      </li>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">
+          <a itemprop="url" href="https://ryanhavoc.gumroad.com/l/rXch">Version Control with Git</a>
+        </div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">Ryan Taylor</span>
+        </div>
+      </li>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">
+          <a itemprop="url" href="https://andydavies.me/books/#webperformance">Web Performance</a>
+        </div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">
+            <a itemprop="url" href="https://andydavies.me/">Andy Davies</a>
+          </span>
+        </div>
+      </li>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">Working with brand <span class="BestAmpersandAvailable">&amp;</span> design guidelines</div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">
+            <a itemprop="url" href="https://rachilli.com/">Rachel Shillcock</a>
+          </span>
+        </div>
+      </li>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">
+          <a itemprop="url" href="https://mattgemmell.scot/books/writing-in-markdown/">Writing in Markdown</a>
+        </div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">
+            <a itemprop="url" href="https://mattgemmell.scot/">Matt Gemmell</a>
+          </span>
+        </div>
+      </li>
+
+    </ol>
+  </section>
+
+  <section class="oneoffs">
+    <h2><span aria-hidden="true">📖 </span>One-offs</h2>
+    <ol>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">
+          <a itemprop="url" href="https://iconhandbook.co.uk/">The Icon Handbook</a>
+        </div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">
+            <a itemprop="url" href="https://hicks.design/">Jon Hicks</a>
+          </span>
+        </div>
+        <time itemprop="datePublished">2012</time>
+      </li>
+
+      <li itemscope itemtype="https://schema.org/Book">
+        <div itemprop="name">
+          <a itemprop="url" href="https://stuffandnonsense.co.uk/books#:~:text=Hardboiled%20Web%20Design">Hardboiled Web Design</a>
+        </div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">
+            <a itemprop="url" href="https://stuffandnonsense.co.uk/">Andy Clarke</a>
+          </span>
+        </div>
+        <time itemprop="datePublished">2010</time>,
+        <time itemprop="dateModified">2015</time>
+      </li>
+
+    </ol>
+  </section>
+
+  <section class="about">
+    <h2><span aria-hidden="true">ℹ️ </span>About</h2>
+    <p>Five Simple Steps—<a href="https://web.archive.org/web/20181031164011/http://www.collectivelyemmaboulton.com/journal/2016/3/29/accidental-publishers">accidental publishers</a> who sold <a href="https://web.archive.org/web/20130906134252/https://www.fivesimplesteps.com/collections/books">practical guides, pocket guides, <span class="BestAmpersandAvailable">&amp;</span> one-offs</a>—closed in 2016. I’m trying to track the authors’ preferred ways of making their books available. I’m building on <a href="https://rachelandrew.co.uk/">Rachel Andrew</a>’s <a href="https://web.archive.org/web/20160408031207/http://www.futuresimplesteps.com/">Future Simple Steps</a> and <a href="https://andycroll.com/">Andy Croll</a>’s <a href="https://andycroll.com/other/the-new-homes-of-five-simple-steps-books/">The New Homes of Five Simple Steps Books</a>.</p>
+  </section>
+</main>
